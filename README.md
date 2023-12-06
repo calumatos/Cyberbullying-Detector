@@ -1,16 +1,15 @@
 # Final_project DA_OCT23
-
-# Detect Cyber bullying
+## Detect Cyber bullying
 
 #### Members of the group:
 Carmen Matos, 
 Juliane Petersen
 
+### Problem Definition:
+The phenomenon of cyberbullying has been growing at alarming rates. 65% of global adults say their kids or kids in their community have been cyberbullied over social media. 45% say their child was bullied through text or messaging apps (Source: https://explodingtopics.com/blog/cyberbullying-stats). Technology can be used to help identify cyberbullying content.
+
 #### Goal of the project:
-
-Our main objective is to develop a machine learning project to address cyberbullying based on 
-internet messages, tweets, and social media comments. 
-
+This project will use Machine Learning methods to detect whether or not a social media message contains cyberbullying content. In addition, we will identify general risk factors for bullying.  
 #### Brief description of the dataset:
 
 Dataset 1: 
@@ -23,54 +22,68 @@ Number of rows: 159686 rows
 Number of features: 5 columns
 
 Dataset 2: 
-This dataset includes various indicators of bullying such as feelings of loneliness, 
-lack of close friends, poor communication with parents, absence from classes. 
+This dataset includes various indicators of bullying at school, such as feelings of loneliness, lack of close friends, poor communication with parents, absence from classes. 
 Source: Kaggle (https://www.kaggle.com/datasets/leomartinelli/bullying-in-schools/)
 Number of rows: 56981 rows
 Number of features: 18 columns
 
 
-
 #### Project Plan:
 
-##### Problem Definition:
-Clearly define what constitutes cyberbullying in the context of your project. This might include offensive language, 
-personal attacks, or any form of online harassment. Consider the different forms of cyberbullying, such as direct 
-attacks, impersonation, or the spread of harmful content.
+# Steps for dataset 1
+1. Text Preprocessing:
+Cleaning and preprocessing the text data. This involves tasks like removing stop words, handling emojis, and converting text to lowercase.
+Tokenizing the text to convert it into a format suitable for machine learning algorithms.
 
-##### Data Collection:
-Gather a diverse and representative dataset of internet messages, tweets, and social media comments that cover various platforms.
-Annotate the dataset with labels indicating whether each instance contains cyberbullying or not. This may involve manual 
-labeling or leveraging pre-existing labeled datasets.
-
-##### Text Preprocessing:
-Clean and preprocess the text data. This involves tasks like removing stop words, handling emojis, and converting text to lowercase.
-Tokenize the text to convert it into a format suitable for machine learning algorithms.
-
-##### Feature Extraction:
-Extract relevant features from the text data. This might include bag-of-words representations, 
+2. Feature Extraction:
+Extracting relevant features from the text data. This might include bag-of-words representations, 
 TF-IDF (Term Frequency-Inverse Document Frequency), or word embeddings.
-Explore advanced techniques like word embeddings (Word2Vec, GloVe) to capture semantic relationships between words.
+Exploring advanced techniques like word embeddings (Word2Vec, GloVe) to capture semantic relationships between words.
 
-##### Model Selection:
-Choose a machine learning model that suits your problem. Common models for text classification include Naive Bayes, 
+3. Model Selection:
+Choosing a machine learning model that suits your problem. Common models for text classification include Naive Bayes, 
 Support Vector Machines (SVM), and deep learning models like recurrent neural networks (RNNs) or transformers (e.g., BERT).
-Consider ensemble methods or fine-tuning pre-trained models for improved performance.
+Considering ensemble methods or fine-tuning pre-trained models for improved performance.
 
-##### Model Training and Evaluation:
-Split your dataset into training and testing sets to train and evaluate your model.
-Use appropriate evaluation metrics such as precision, recall, F1-score, and accuracy to assess the model's performance.
+4. Model Training and Evaluation:
+Splitting the dataset into training and testing sets to train and evaluate your model.
+Identifying appropriate evaluation metrics such as precision, recall, F1-score, and accuracy to assess the model's performance.
 
-##### Addressing Class Imbalance:
-Cyberbullying datasets often suffer from class imbalance, where non-cyberbullying instances significantly outnumber 
-cyberbullying instances. Address this imbalance using techniques like oversampling, undersampling, or using more advanced 
+5. Addressing Class Imbalance:
+Our reserach showed that cyberbullying datasets often suffer from class imbalance, where non-cyberbullying instances significantly outnumber 
+cyberbullying instances. Identifying the best way to address these imbalances using techniques like oversampling, undersampling, or using more advanced 
 methods like Synthetic Minority Over-sampling Technique (SMOTE).
 
-##### Hyperparameter Tuning:
-Fine-tune the hyperparameters of your model to optimize its performance. Grid search or random search can be useful 
-techniques for finding optimal hyperparameter values.
+6. Hyperparameter Tuning:
+Fine-tuning the hyperparameters of our model to optimize its performance. Using grid search or random search as useful techniques for finding optimal hyperparameter values.
 
-##### Deployment:
-Once satisfied with your model's performance, deploy it to a platform where it can be used for real-time or batch 
-processing of messages and comments.
+7. Deployment:
+Once satisfied with our model's performance, we aim to deploy it to a platform where it can be used for real-time or batch processing of messages and comments.
+
+
+# Steps for dataset 2
+
+1. Data Wrangling
+2. EDA
+3. Drawing conclusions
+
+
+# Time line
+
+Wed: Data wrangling and Elevator pitch
+
+Thu: Finalise data wrangling and EDA for dataset 1
+
+Fri: Text preprocessing for dataset 2
+
+Mo: Feature extraction
+
+Tue: Model selection, training and evaluation
+
+Wed: Improving the model: Addressing imbalances and finetuning hyperparameters
+
+Thu: Preparing the presentation
+
+Fri: Presentation
+
 
