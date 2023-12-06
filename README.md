@@ -1,5 +1,6 @@
 # Final_project DA_OCT23
-Detect Cyber bullying
+
+# Detect Cyber bullying
 
 #### Members of the group:
 Carmen Matos, 
@@ -69,7 +70,7 @@ methods like Synthetic Minority Over-sampling Technique (SMOTE).
 Fine-tune the hyperparameters of your model to optimize its performance. Grid search or random search can be useful 
 techniques for finding optimal hyperparameter values.
 
-### Deployment:
+##### Deployment:
 Once satisfied with your model's performance, deploy it to a platform where it can be used for real-time or batch 
 processing of messages and comments.
 
