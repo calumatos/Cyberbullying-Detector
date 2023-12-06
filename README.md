@@ -32,40 +32,40 @@ Number of features: 18 columns
 
 #### Project Plan:
 
-### Problem Definition:
+##### Problem Definition:
 Clearly define what constitutes cyberbullying in the context of your project. This might include offensive language, 
 personal attacks, or any form of online harassment. Consider the different forms of cyberbullying, such as direct 
 attacks, impersonation, or the spread of harmful content.
 
-### Data Collection:
+##### Data Collection:
 Gather a diverse and representative dataset of internet messages, tweets, and social media comments that cover various platforms.
 Annotate the dataset with labels indicating whether each instance contains cyberbullying or not. This may involve manual 
 labeling or leveraging pre-existing labeled datasets.
 
-### Text Preprocessing:
+##### Text Preprocessing:
 Clean and preprocess the text data. This involves tasks like removing stop words, handling emojis, and converting text to lowercase.
 Tokenize the text to convert it into a format suitable for machine learning algorithms.
 
-### Feature Extraction:
+##### Feature Extraction:
 Extract relevant features from the text data. This might include bag-of-words representations, 
 TF-IDF (Term Frequency-Inverse Document Frequency), or word embeddings.
 Explore advanced techniques like word embeddings (Word2Vec, GloVe) to capture semantic relationships between words.
 
-### Model Selection:
+##### Model Selection:
 Choose a machine learning model that suits your problem. Common models for text classification include Naive Bayes, 
 Support Vector Machines (SVM), and deep learning models like recurrent neural networks (RNNs) or transformers (e.g., BERT).
 Consider ensemble methods or fine-tuning pre-trained models for improved performance.
 
-### Model Training and Evaluation:
+##### Model Training and Evaluation:
 Split your dataset into training and testing sets to train and evaluate your model.
 Use appropriate evaluation metrics such as precision, recall, F1-score, and accuracy to assess the model's performance.
 
-### Addressing Class Imbalance:
+##### Addressing Class Imbalance:
 Cyberbullying datasets often suffer from class imbalance, where non-cyberbullying instances significantly outnumber 
 cyberbullying instances. Address this imbalance using techniques like oversampling, undersampling, or using more advanced 
 methods like Synthetic Minority Over-sampling Technique (SMOTE).
 
-### Hyperparameter Tuning:
+##### Hyperparameter Tuning:
 Fine-tune the hyperparameters of your model to optimize its performance. Grid search or random search can be useful 
 techniques for finding optimal hyperparameter values.
 
