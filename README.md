@@ -6,7 +6,7 @@ Carmen Matos,
 Juliane Petersen
 
 #### Problem Definition:
-The phenomenon of cyberbullying has been growing at alarming rates. 65% of global adults say their kids or kids in their community have been cyberbullied over social media. 45% say their child was bullied through text or messaging apps (Source: https://explodingtopics.com/blog/cyberbullying-stats). Technology can be used to help identify cyberbullying content.
+The phenomenon of cyberbullying has been growing at alarming rates. 65% of global adults say their kids or kids in their community have been cyberbullied over social media. 45% say their child was bullied through text or messaging apps (Source: https://explodingtopics.com/blog/cyberbullying-stats). Technology can be used to help identify cyberbullying content. 
 
 #### Goal of the project:
 This project will use Machine Learning methods to detect whether or not a social media message contains cyberbullying content. In addition, we will identify general risk factors for bullying.  
