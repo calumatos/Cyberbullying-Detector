@@ -5,13 +5,14 @@
 Carmen Matos, 
 Juliane Petersen
 
-### Problem Definition:
+#### Problem Definition:
 The phenomenon of cyberbullying has been growing at alarming rates. 65% of global adults say their kids or kids in their community have been cyberbullied over social media. 45% say their child was bullied through text or messaging apps (Source: https://explodingtopics.com/blog/cyberbullying-stats). Technology can be used to help identify cyberbullying content.
 
 #### Goal of the project:
 This project will use Machine Learning methods to detect whether or not a social media message contains cyberbullying content. In addition, we will identify general risk factors for bullying.  
-#### Brief description of the dataset:
 
+
+#### Brief description of the dataset:
 Dataset 1: 
 This dataset is a collection of datasets from different sources related to the automatic detection of cyber-bullying.
 The data is from different social media platforms like Kaggle, Twitter, Wikipedia Talk pages and YouTube. The data 
@@ -28,9 +29,8 @@ Number of rows: 56981 rows
 Number of features: 18 columns
 
 
-#### Project Plan:
-
-# Steps for dataset 1
+## Project Plan:
+### Steps for dataset 1
 1. Text Preprocessing:
 Cleaning and preprocessing the text data. This involves tasks like removing stop words, handling emojis, and converting text to lowercase.
 Tokenizing the text to convert it into a format suitable for machine learning algorithms.
@@ -61,14 +61,13 @@ Fine-tuning the hyperparameters of our model to optimize its performance. Using 
 Once satisfied with our model's performance, we aim to deploy it to a platform where it can be used for real-time or batch processing of messages and comments.
 
 
-# Steps for dataset 2
-
+### Steps for dataset 2
 1. Data Wrangling
 2. EDA
 3. Drawing conclusions
 
 
-# Time line
+### Time line
 
 Wed: Data wrangling and Elevator pitch
 
