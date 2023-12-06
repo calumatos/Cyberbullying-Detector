@@ -18,14 +18,20 @@ This dataset is a collection of datasets from different sources related to the a
 The data is from different social media platforms like Kaggle, Twitter, Wikipedia Talk pages and YouTube. The data 
 contain text and labeled as bullying or not. The data contains different types of cyber-bullying like hate speech, 
 aggression, insults and toxicity.
+
 Source: Kaggle (https://www.kaggle.com/datasets/saurabhshahane/cyberbullying-dataset?select=aggression_parsed_dataset.csv)
+
 Number of rows: 159686 rows
+
 Number of features: 5 columns
 
 Dataset 2: 
 This dataset includes various indicators of bullying at school, such as feelings of loneliness, lack of close friends, poor communication with parents, absence from classes. 
+
 Source: Kaggle (https://www.kaggle.com/datasets/leomartinelli/bullying-in-schools/)
+
 Number of rows: 56981 rows
+
 Number of features: 18 columns
 
 
