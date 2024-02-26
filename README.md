@@ -8,12 +8,12 @@ Carmen Matos,
 Juliane Petersen
 
 #### Problem Definition:
-The phenomenon of cyberbullying has been growing at alarming rates. 65% of global adults say their kids or kids in their community have been cyberbullied over social media. 45% say their child was bullied through text or messaging apps. Technology can be used to help identify cyberbullying content. 
+The phenomenon of cyberbullying has been growing at alarming rates. 65% of global adults say their kids or kids in their community have been cyberbullied over social media. 45% say their child was bullied through text or messaging apps.  
 
-(Source: https://explodingtopics.com/blog/cyberbullying-stats). 
+(Source: https://explodingtopics.com/blog/cyberbullying-stats).
 
 #### Goal of the project:
-This project will use Machine Learning methods to detect whether or not a social media message contains cyberbullying content. In addition, we will identify general risk factors for bullying.  
+The primary goal is to develop a machine learning model that can accurately identify whether a given social media message contains cyberbullying content. In addition, the project aims to identify  common risk factors associated with bullying and to improve our understanding of the broader context. 
 
 [View the final presentation](https://github.com/calumatos/Cyberbullying-Detector/blob/main/Detect_Cyberbullying%2C%20Final_presentation.pdf)
 
@@ -53,30 +53,25 @@ Number of features: 5 columns
 
 1. Text Preprocessing:
 Cleaning and preprocessing the text data. This involves tasks like removing stop words, handling emojis, and converting text to lowercase.
-Tokenizing the text to convert it into a format suitable for machine learning algorithms.
+Tokenizing the text to convert it into a format suitable for machine learning algorithms. 
 
 2. Feature Extraction:
-Extracting relevant features from the text data. Exploring advanced techniques like word embeddings (Word2Vec) to capture semantic relationships between words.
+Extracting relevant features from the text data. Exploring advanced techniques like word embeddings (Word2Vec) to capture semantic relationships between words. This step improves the model's understanding of the textual content. 
 
 3. Model Selection:
-Choosing a machine learning model that suits your problem. Common models for text classification include Naive Bayes, and deep learning models like recurrent neural networks (RNNs).
-Considering ensemble methods or fine-tuning pre-trained models for improved performance.
+The project uses the Sequential Model with the TensorFlow Keras framework, a popular choice for text classification and NLP (natural language processing) tasks. This selection is based on the model's ability to effectively process sequential data. 
 
 4. Model Training and Evaluation:
-Splitting the dataset into training and testing sets to train and evaluate your model.
-Identifying appropriate evaluation metrics such as precision, recall, F1-score, and accuracy to assess the model's performance.
+The dataset is divided into training and testing sets to train and evaluate the model. Evaluation metrics such as precision, recall, and accuracy are employed to assess the model's performance and ensure its effectiveness in identifying cyberbullying content. 
 
-5. Addressing Class Imbalance:
-Our reserach showed that cyberbullying datasets often suffer from class imbalance, where non-cyberbullying instances significantly outnumber 
-cyberbullying instances. Identifying the best way to address these imbalances using techniques like oversampling, undersampling, or using more advanced 
-methods like Synthetic Minority Over-sampling Technique (SMOTE).
+5. Test Interface:
+Use a Streamlit interface to display the results.
 
-6. Hyperparameter Tuning:
-Fine-tuning the hyperparameters of our model to optimize its performance. Using grid search or random search as useful techniques for finding optimal hyperparameter values.
+ <div>
+    <img src="https://github.com/calumatos/Cyberbullying-Detector/blob/main/Cyberbullying_Interface.png">         
+  </div>
 
-7. Deployment:
-Once satisfied with our model's performance, we aim to deploy it to a platform where it can be used for real-time or batch processing of messages and comments.
+By combining technological advances in machine learning with a comprehensive approach to data analysis, this project aims to contribute to the prevention and identification of cyberbullying and to  make online spaces safer for users, in particular for the younger generation.
 
-
-
+ 
 
